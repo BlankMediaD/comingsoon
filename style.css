@@ -23,23 +23,11 @@ body {
 
 .a-title {
   position: absolute;
-  color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: conic-gradient(#ed0101, blue);
+  color: white;
   pointer-events: none;
-  mix-blend-mode: difference;
-  filter: drop-shadow(2px 4px 6px black);
-}
-.a-second-title {
-  position: absolute;
-  margin-top: 25vh;
-  pointer-events: none;
-  -webkit-text-stroke: 1.3px white;
-  letter-spacing: 1.125px;
-  font-size: -webkit-xxx-large;
-  font-weight: 900;
-  mix-blend-mode: color-dodge;
+  font-size: 6em;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
 }
 
 canvas {
